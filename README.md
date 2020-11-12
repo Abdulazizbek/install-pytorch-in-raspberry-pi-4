@@ -1,5 +1,5 @@
 # Install-pytorch-in-raspberry-pi-4
-Install Ubuntu on Raspberry Pi 4, Create pytorch environment on Raspberry pi 4
+Install Ubuntu on Raspberry Pi 4, Create Pytorch environment on Raspberry pi 4
 
 ## Downloading and Installing Ubuntu 20.04 LTS for Raspberry Pi
 
@@ -9,7 +9,7 @@ Highly recommend to follow [this great guideline](https://linuxhint.com/install-
 
 * Connecting Raspberry Pi 4 to the Internet: [link](https://itsfoss.com/connect-wifi-terminal-ubuntu/)
 
-* Instead of `ubuntu-desktop`, I will suggest instakk `lubuntu-desktop` in terms of lightweightness purposes:
+* Instead of `ubuntu-desktop`, I suggest to install `lubuntu-desktop` in terms of lightweightness:
   * `sudo apt install ubuntu-desktop` ==> `sudo apt install lubuntu-desktop`
   
 ## Check Python and is packages working properly
