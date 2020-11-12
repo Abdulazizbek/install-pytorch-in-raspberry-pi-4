@@ -73,8 +73,8 @@ and ensure that sleef is working properly, however for preventing ‘cannot open
   * `git submodule update --remote third_party/protobuf`
   
   #### 2. Edit CMakeLists.txt to set two flags:
-  * `option(USE_PYTORCH_QNNPACK "Use ATen/QNNPACK (quantized 8-bit operators)" OFF)` # By dedault is `ON`
-  * `option(USE_SYSTEM_SLEEF "Use system-provided sleef." ON)` # By default is `OFF`
+  * `option(USE_PYTORCH_QNNPACK "Use ATen/QNNPACK (quantized 8-bit operators)" OFF)` # By dedault was `ON`
+  * `option(USE_SYSTEM_SLEEF "Use system-provided sleef." ON)` # By default was `OFF`
   
   #### 3. Compile Pytorch
   * `export BUILD_TEST=0`
